@@ -1,0 +1,60 @@
+.app {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7dd63+0,d1ddb8+100 */
+  background: #b7dd63; /* Old browsers */
+  background: -moz-linear-gradient(top, #b7dd63 0%, #d1ddb8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #b7dd63 0%,#d1ddb8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #b7dd63 0%,#d1ddb8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7dd63', endColorstr='#d1ddb8',GradientType=0 ); /* IE6-9 */
+   
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  float: left;
+}
+
+.app-header {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  height: 80px;
+}
+
+.app-title {
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.app-link {
+  text-decoration: none;
+  text-align: left;
+  color: #b1ff06;
+  float: left;
+  width: 50px;
+}
+
+.app-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.app .hig__global-nav__slot {
+  height: calc(100vh - 56px);
+  padding: 0;
+}
+
+.app .hig__global-nav__slot > div {
+  height: 100%;
+}
+
+.app main {
+  height: 100%;
+}

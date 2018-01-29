@@ -1,0 +1,38 @@
+{
+  "name": "hig-forge-react",
+  "description": "BHIG Forge React+Redux boiler demo",
+  "version": "0.1.0",
+  "author": "Philippe Leefsma",
+  "license": "MIT",
+  "keywords": [
+    "create-react-app",
+    "forge",
+    "react",
+    "redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leefsmp/hig-forge-react"
+  },
+  "devDependencies": {
+    "cross-env": "5.1.3",
+    "hig-react": "^0.28.27",
+    "history": "4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "5.0.6",
+    "react-router-dom": "4.2.2",
+    "react-router-redux": "5.0.0-alpha.9",
+    "react-scripts": "1.1.0",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0"
+  },
+  "scripts": {
+    "git-build": "cross-env PUBLIC_URL=\"https://leefsmp.github.io/hig-forge-react/build/\" react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {}
+}
