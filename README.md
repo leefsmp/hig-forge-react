@@ -10,18 +10,19 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 # Setup
 
- * Development
+* Development
 
- ```sh
-  npm install or yarn install
-  ```
-  ```sh
-  npm start or yarn start
-  ```
+```sh
+npm install or yarn install
+```
+```sh
+npm start or yarn start
+```
  
 * Production
-
- . npm build or yarn build
+```sh
+npm build or yarn build
+```
 
 # About the Author
 
